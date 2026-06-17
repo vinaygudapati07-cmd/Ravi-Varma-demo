@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ravi Varma Organic</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+
+  <div class="logo">
+    <img src="images/logo.png" alt="logo">
+  </div>
+
+  <ul class="menu">
+    <li>Home</li>
+    <li>Shop</li>
+    <li>Contact</li>
+  </ul>
+
+  <div class="cart">
+   🛒 <span id="cart-count">0</span>
+  </div>
+
+</div>
+
+<!-- HERO -->
+<div class="hero">
+
+  <div class="hero-text">
+    <h1>Traditional Ayurveda for Modern Living</h1>
+    <p>Pure • Natural • Authentic</p>
+    <button onclick="addToCart()">Shop Now</button>
+  </div>
+
+  <div class="hero-img">
+    <img src="images/hero.png" alt="">
+  </div>
+
+</div>
+
+<!-- PRODUCTS -->
+<div class="products">
+  <h2>Products</h2>
+
+  <div class="product-list">
+
+    <div class="product">
+      <img src="images/jaggery powder.png">
+      <h3>Jaggery Powder</h3>
+      <p>₹130</p>
+       <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="images/Tea.png">
+      <h3>Ayur Tea</h3>
+      <p>₹130</p>
+       <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="images/Toothpowder.png">
+      <h3>Tooth Powder</h3>
+      <p>₹90</p>
+       <button onclick="addToCart()">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="images/Moringa powder.png">
+      <h3>Tooth Powder</h3>
+      <p>₹90</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- CART BOX -->
+<div id="cart-box" class="cart-box">
+  <h3>Your Cart</h3>
+  <div id="cart-items"></div>
+</div>
+<script src="Js/script.js"></script>
+</body>
+</html>
